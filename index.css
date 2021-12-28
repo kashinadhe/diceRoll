@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(235, 165, 14);
+    font-family: 'Indie Flower';font-size: 22px;
+}
+h1{
+    display: inline-block;
+    font-size: 10rem;
+    margin: 12px auto;
+}
+.left{
+  
+    left: 25%;
+    display: inline-block;
+    position: absolute;
+    font-size: 25px;
+
+}
+.right{
+    position: absolute;
+    display: inline-block;
+    right: 25%;
+    font-size: 25px;
+}
+.leftimg{
+    top: 50%;
+    left: 25%;
+    display: inline-block;
+    position: absolute;
+    
+}
+.rightimg{
+    top: 50%;
+    position: absolute;
+    display: inline-block;
+    right: 25%;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 10px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    left: 46%;
+}
+.btn:hover{
+    background-color: rgb(60, 255, 0);
+}
